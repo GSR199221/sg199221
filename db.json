@@ -1,0 +1,172 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "flightName": "Indigo",
+      "flightNumber": "A1",
+      "originCity": "Hyderabad",
+      "originAirport": "shamsabad",
+      "destinationCity": "Banglore",
+      "destinationAirport": "Kempegowda",
+      "arrivedDate": "20-04-22",
+      "arrivedTime": "06:02 PM",
+      "departureDate": "20-04-22",
+      "departureTime": "06:02 PM",
+      "price": "5,500",
+      "flightId": 3,
+      "pending": true
+    },
+    {
+      "id": 2,
+      "flightName": "King Fisher",
+      "flightNumber": "A2",
+      "originCity": "Banglore",
+      "destinationAirport": "shamsabad",
+      "destinationCity": "Hyderabad",
+      "originAirport": "Kempegowda",
+      "arrivedDate": "20-04-22",
+      "arrivedTime": "06:02 AM",
+      "departureDate": "20-04-22",
+      "departureTime": "08:02 AM",
+      "price": "6,500",
+      "flightId": 3,
+      "pending": true
+    },
+    {
+      "id": 3,
+      "flightName": "King Fisher",
+      "flightNumber": "A2",
+      "originCity": "Banglore",
+      "destinationAirport": "shamsabad",
+      "destinationCity": "Hyderabad",
+      "originAirport": "Kempegowda",
+      "arrivedDate": "20-04-22",
+      "arrivedTime": "06:02 AM",
+      "departureDate": "20-04-22",
+      "departureTime": "08:02 AM",
+      "price": "6,500",
+      "flightId": 2,
+      "pending": false
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "userName": "Sivaraju",
+      "emailID": "siva@gmail.com",
+      "mobile": "123456",
+      "travelarInfo": [
+        {
+          "adult": "",
+          "child": ""
+        }
+      ],
+      "promoCode": [
+        {
+          "code1": "AX",
+          "code2": "BX",
+          "code3": "CX",
+          "code4": "DX"
+        }
+      ]
+    }
+  ],
+  "bookedFlights": [
+    {
+      "id": 2,
+      "flightName": "King Fisher",
+      "flightNumber": "A2",
+      "originCity": "Banglore",
+      "destinationAirport": "shamsabad",
+      "destinationCity": "Hyderabad",
+      "originAirport": "Kempegowda",
+      "arrivedDate": "20-04-22",
+      "arrivedTime": "06:02 AM",
+      "departureDate": "20-04-22",
+      "departureTime": "08:02 AM",
+      "price": "6,500",
+      "flightId": 3,
+      "useremail": "dddsaf",
+      "userphone": "232",
+      "travellerCount": "2",
+      "pending": true
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "id": 3,
+      "pending": false
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "id": 4,
+      "pending": true
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "id": 5,
+      "pending": false
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "id": 6,
+      "pending": true
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "id": 7,
+      "pending": false
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "id": 8,
+      "pending": true
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "id": 9,
+      "pending": true
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "pending": true,
+      "id": 10
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "pending": true,
+      "id": 11
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "pending": true,
+      "id": 12
+    },
+    {
+      "useremail": "",
+      "userphone": "",
+      "travellerCount": "",
+      "pending": true,
+      "id": 13
+    }
+  ]
+}
